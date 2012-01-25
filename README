@@ -1,0 +1,16 @@
+Using HTML, CSS, and Twitter Bootstrap, create a professional-looking web page for a fake product, service, or application.
+
+1) Your project must include a one-page layout with navigation and at least one other 'live' page
+
+2) It must have a nav section with tabs or pills
+
+3) It must have at least one input box, for example "sign up for our newsletter" or "login" (they do not have to actually work)
+
+4) It must include at least two buttons, one of which launches a modal box (which doesn't have to do anything)
+
+5) It must include several images which you can find on wikimedia commons or edit them yourself using Photoshop or GIMP
+
+
+Github requirements
+
+Your Github project must include at least 10 commits over the course of 5 different days. Each commit should have a meaningful commit message that explains exactly what was changed since the last iteration.
