@@ -1,0 +1,27 @@
+body {
+  /* fallback */
+  background-color: #fcfff5;
+  background: url(images/background.png);
+  background-repeat: no-repeat;
+  
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#193441),to(#fcfff5));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #fcfff5, #193441);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #fcfff5, #193441);
+  
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #fcfff5, #193441);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #fcfff5, #193441);
+}
+
+.backgroundimage {
+background: url(images/background.png);
+background-position:center 200px;
+background-repeat:no-repeat;
+}
