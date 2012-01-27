@@ -25,3 +25,43 @@ background: url(images/background.png);
 background-position:center 200px;
 background-repeat:no-repeat;
 }
+
+.container h1 {
+font-size: 24px;
+color: #1b1d26;
+margin-bottom:0px;
+}
+
+.container h2 {
+font-size: 18px;
+color: #3e606f;
+}
+
+.container {
+color: #193441;
+font-weight: bold;
+}
+
+.container a:link {
+		color: #A6653F;
+		text-decoration:none;
+		}
+	
+.container a:visited {
+		color: #A6653F;
+		text-decoration:none;
+		}
+
+.container a:hover {
+		color: #1b1d26;
+		text-decoration:none;
+		}
+	
+.container a:active {
+		color: #1b1d26;
+		text-decoration:none;
+		}
+
+.textbg {
+background: url(images/textbg.png);
+}
