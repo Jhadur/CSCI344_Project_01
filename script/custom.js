@@ -1,7 +1,7 @@
 // For Modal
 $(document).ready(function() {
 	$("#modal-from-dom").bind('show', function() {
-		var name = $("#name").val();
-	$("#name_header").text("Thank You, " + name);
+		var email = $("#email").val();
+	$("#email_header").text("Thank You, " + email);
 	});
 });

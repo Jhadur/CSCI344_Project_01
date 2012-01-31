@@ -118,18 +118,15 @@ font-weight: bold;
 
 .footerright label {
 width:auto;
-
+color: #d1dbbd;
+font-size: 16px;
+padding-left:0px;
 }
 
 .footerright button.btn {
 margin-left:5px;
 }
 
-.footerright h1 {
-color: #d1dbbd;
-font-size: 16px;
-padding-left:0px;
-}
 .footermid button.btn {
 float:left;
 margin-right:5px;
