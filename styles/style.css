@@ -1,0 +1,74 @@
+body {
+  /* fallback */
+  background-color: #fcfff5;
+  background: url(../images/textbg.png);
+  background-repeat: no-repeat;
+  
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#193441),to(#fcfff5));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #fcfff5, #193441);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #fcfff5, #193441);
+  
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #fcfff5, #193441);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #fcfff5, #193441);
+}
+
+.backgroundimage {
+background: url(../images/background.png);
+background-position:center 200px;
+background-repeat:no-repeat;
+}
+
+.container h1 {
+font-size: 24px;
+color: #1b1d26;
+margin-bottom:0px;
+}
+
+.container h2 {
+font-size: 18px;
+color: #3e606f;
+}
+
+
+.container a:link {
+color: #A6653F;
+text-decoration:none;
+}
+	
+.container a:visited {
+color: #A6653F;
+text-decoration:none;
+}
+
+.container a:hover {
+color: #1b1d26;
+text-decoration:none;
+}
+	
+.container a:active {
+color: #1b1d26;
+text-decoration:none;
+}
+
+
+.textbg {
+background: url(../images/textbg.png);
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+}
+
+.textbg p, h1, h2, ul
+{
+padding-left: 10px;
+padding-right:10px;
+color: #193441;
+font-weight: bold;
+}
