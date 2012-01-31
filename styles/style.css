@@ -1,8 +1,8 @@
 body {
   /* fallback */
   background-color: #fcfff5;
-  background: url(../images/textbg.png);
-  background-repeat: no-repeat;
+  background: url(../images/bg.png);
+  background-repeat:repeat-x;
   
   /* Safari 4-5, Chrome 1-9 */
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#193441),to(#fcfff5));
@@ -71,8 +71,7 @@ background: url(../images/textbg.png);
 -o-border-radius:10px;
 }
 
-.textbg p, h1, h2, ul
-{
+.textbg p, h1, h2, ul{
 padding-left: 10px;
 padding-right:10px;
 color: #193441;
@@ -119,21 +118,28 @@ font-weight: bold;
 
 .footerright label {
 width:auto;
+
+}
+
+.footerright button.btn {
+margin-left:5px;
 }
 
 .footerright h1 {
 color: #d1dbbd;
 font-size: 16px;
+padding-left:0px;
 }
 .footermid button.btn {
-float:right;
+float:left;
 margin-right:5px;
 }
 
 .footermid p, label{
 color:#d1dbbd;
 font-weight: bold;
-margin-right:5px;
+margin-bottom:5px;
+text-align:left;
 }
 .footerleft h1 {
 color: #d1dbbd;
