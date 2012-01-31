@@ -40,21 +40,25 @@ color: #3e606f;
 
 .container a:link {
 color: #A6653F;
+font-weight: bold;
 text-decoration:none;
 }
 	
 .container a:visited {
 color: #A6653F;
+font-weight: bold;
 text-decoration:none;
 }
 
 .container a:hover {
 color: #1b1d26;
+font-weight: bold;
 text-decoration:none;
 }
 	
 .container a:active {
 color: #1b1d26;
+font-weight: bold;
 text-decoration:none;
 }
 
@@ -113,6 +117,25 @@ font-weight: bold;
   text-decoration: none;
 }
 
-label {
+.footerright label {
 width:auto;
+}
+
+.footerright h1 {
+color: #d1dbbd;
+font-size: 16px;
+}
+.footermid button.btn {
+float:right;
+margin-right:5px;
+}
+
+.footermid p, label{
+color:#d1dbbd;
+font-weight: bold;
+margin-right:5px;
+}
+.footerleft h1 {
+color: #d1dbbd;
+font-size: 16px;
 }
