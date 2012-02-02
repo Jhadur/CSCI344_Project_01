@@ -138,7 +138,10 @@
 			<input class="span4" id="acctpw" size="25" placeholder="Enter Account Password" type="text"/>
 			</p>
 			<p class="footermid">
-			<button class="btn">Log-In</button>
+			<button data-controls-modal="modal-from-dom-2" 
+			data-backdrop="true" data-keyboard="true" class="btn">
+			Log-In
+			</button>			
 			</p>
 		
 		
@@ -178,6 +181,20 @@
 		
 		<div class="modal-body">
 			<p>You have signed up for our monthly newsletter about the Web Design</p>
+		</div>
+		
+		
+	</div><!-- Ends Modal Div -->
+	
+	<div id="modal-from-dom-2" class="modal hide fade">
+		
+		<div class="modal-header">
+			<a href="#" class="close">&times;</a>
+			<h3 id="login"></h3>
+		</div>
+		
+		<div class="modal-body">
+			<p>Log-in Failed... Contact support if you have forgot your account information</p>
 		</div>
 		
 		

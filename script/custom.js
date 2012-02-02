@@ -5,3 +5,10 @@ $(document).ready(function() {
 	$("#email_header").text("Thank You, " + email);
 	});
 });
+
+$(document).ready(function() {
+	$("#modal-from-dom-2").bind('show', function() {
+		var login = $("#acctname").val();
+	$("#login").text("We dont have an account " + login + " that matches our records.");
+	});
+});
