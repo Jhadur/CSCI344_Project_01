@@ -1,7 +1,7 @@
 body {
   /* fallback */
-  background-color: #fcfff5;
   background: url(../images/bg.png);
+  background-color: #28414d;
   background-repeat:repeat-x;
   
   /* Safari 4-5, Chrome 1-9 */
@@ -71,7 +71,7 @@ background: url(../images/textbg.png);
 -o-border-radius:10px;
 }
 
-.textbg p, h1, h2, ul{
+.textbg p, h1, h2, h3, ul{
 padding-left: 10px;
 padding-right:10px;
 color: #193441;
@@ -126,6 +126,11 @@ padding-left:0px;
 .footerright button.btn {
 margin-left:5px;
 }
+.footerright p, label{
+color:#d1dbbd;
+font-weight: bold;
+text-align:left;
+}
 
 .footermid button.btn {
 float:left;
@@ -141,4 +146,14 @@ text-align:left;
 .footerleft h1 {
 color: #d1dbbd;
 font-size: 16px;
+}
+
+.headshots {
+float: left;
+padding-right: 5px;
+}
+
+.titles {
+font-size: 16px;
+color:#91aa9d;
 }
