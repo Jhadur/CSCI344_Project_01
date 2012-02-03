@@ -1,3 +1,8 @@
+//Jason Trump
+//Project 01
+//CSCI 344
+
+
 // For Modal
 $(document).ready(function() {
 	$("#modal-from-dom").bind('show', function() {
